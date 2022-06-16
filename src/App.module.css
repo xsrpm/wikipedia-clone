@@ -1,7 +1,6 @@
 .app {
   min-height: 100vh;
-  background-color: aquamarine;
   display: grid;
-  grid-template-columns: 1fr 6fr;
+  grid-template-columns: auto 6fr;
   grid-template-rows: 1fr 5fr 1fr;
 }
