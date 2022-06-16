@@ -47,10 +47,3 @@ aside li {
   padding: 0.2em 0;
 }
 
-aside a {
-  text-decoration: none;
-}
-
-aside a:hover {
-  text-decoration: underline;
-}
