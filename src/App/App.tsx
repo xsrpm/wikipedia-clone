@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 import { Aside } from "../components/aside";
 import { Footer } from "../components/footer";
 import { Header } from "../components/header";

@@ -1,0 +1,67 @@
+.welcome{
+    border: 1px solid #c8ccd1;
+    border-radius: 2px;
+    background-color: #f8f9fa;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+@media(min-width:1000px){
+    .welcome{
+        background-image: url("@/assets/images/Wikipedia-logo-letters-banner.svg");
+        background-position: right;
+        background-repeat: no-repeat;
+        /*
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        */
+    }
+}
+
+.welcome p:first-of-type{
+    line-height: 1.6;
+    margin:0;
+}
+
+.welcome p:first-of-type span{
+    font-size: 1.8rem;
+    font-family: 'Linux Libertine','Georgia','Times',serif;
+}
+/*
+@media(min-width:1000px){
+    .welcome p:nth-of-type(3){
+        grid-area:1/2/2/3;
+    }
+    .welcome p:nth-of-type(4){
+        grid-area:2/2/3/3;
+    }
+}
+*/
+.welcome ul{
+    display: flex;
+    flex-direction: row;
+    padding:0;
+}
+
+.welcome li{
+    list-style: none;
+}
+
+.welcome ul li a{
+    font-weight: bold;
+    font-size: 0.875rem;
+    padding: 5px 0 5px 12px;
+    border: 0;
+    color: #202122;
+    border-radius: 2px;
+    
+}
+.welcome ul li a:hover{
+    color: #0645ad;
+    text-decoration: none;
+    background-color: rgba(0,24,73,0.02745098);
+}
+.welcome ul li a:active{
+    background-color: rgba(0,36,73,0.08235294);
+    outline: 1px solid #72777d;
+}
