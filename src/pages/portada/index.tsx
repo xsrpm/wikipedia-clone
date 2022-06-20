@@ -1,12 +1,11 @@
 import './styles.css';
 import { Welcome } from "../../components/welcome";
-import { Destacado } from "../../components/destacado";
-
+import { FeaturedArticle } from "../../components/featuredArticle";
 export function Portada() {
   return (
     <>
       <Welcome />
-      <Destacado />
+      <FeaturedArticle />
     </>
   );
 }

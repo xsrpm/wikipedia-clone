@@ -1,4 +1,4 @@
-.destacado{
+.section{
     border: 1px solid #c8ccd1;
     border-radius: 2px;
     background-color: #f8f9fa;
@@ -24,7 +24,7 @@
     color: #000000;
 }
 
-.destacado:hover .title a{
+.section:hover .title a{
     color: #0645ad;
 }
 

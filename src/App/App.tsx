@@ -3,16 +3,16 @@ import { Footer } from "../components/footer";
 import { Header } from "../components/header";
 import classes from "./App.module.css";
 import { Portada } from "../pages/portada";
-import { Page } from "../layouts/page";
+import { PageLayout } from "../layouts/pageLayout";
 
 function App() {
   return (
     <div className={classes.app}>
       <Header />
       <Aside />
-      <Page>
+      <PageLayout>
         <Portada />
-      </Page>
+      </PageLayout>
       <Footer />
     </div>
   );

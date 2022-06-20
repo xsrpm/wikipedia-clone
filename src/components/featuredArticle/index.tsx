@@ -1,12 +1,12 @@
-import classes from "./style.module.css";
-import madona from "@/assets/images/Madonna-take-a-bow-album-version-1994-2.jpg.webp";
-import elipsis from "@/assets/images/30px-OOjs-UI-icon-ellipsis.svg.webp";
 import { LinkButton } from "../linkButton";
 import { SoftLinkButton } from "../softLinkButton";
+import classes from "@/layouts/sectionLayout/styles.module.css";
+import madona from "@/assets/images/Madonna-take-a-bow-album-version-1994-2.jpg.webp";
+import elipsis from "@/assets/images/30px-OOjs-UI-icon-ellipsis.svg.webp";
 
-export function Destacado() {
+export function FeaturedArticle() {
   return (
-    <section className={classes.destacado}>
+    <section className={classes.section}>
       <header>
         <p className={classes.cardType}>Artículo destacado</p>
         <h2 className={classes.title}>
