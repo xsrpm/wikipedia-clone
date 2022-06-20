@@ -1,3 +1,4 @@
+import { SoftLinkButton } from "../softLinkButton";
 import classes from "./styles.module.css";
 
 export function Welcome() {
@@ -20,19 +21,19 @@ export function Welcome() {
       </p>
       <ul>
         <li>
-          <a href="#">Café</a>
+          <SoftLinkButton name="Cafe" padding="5px 0 5px 12px" />
         </li>
         <li>
-          <a href="#">¿Como colaborar?</a>
+          <SoftLinkButton name="¿Como colaborar?" padding="5px 0 5px 12px" />
         </li>
         <li>
-          <a href="#">Primeros pasos</a>
+          <SoftLinkButton name="Primeros pasos" padding="5px 0 5px 12px" />
         </li>
         <li>
-          <a href="#">Ayuda</a>
+          <SoftLinkButton name="Ayuda" padding="5px 0 5px 12px" />
         </li>
         <li>
-          <a href="#">Contacto</a>
+          <SoftLinkButton name="Contacto" padding="5px 0 5px 12px" />
         </li>
       </ul>
     </section>

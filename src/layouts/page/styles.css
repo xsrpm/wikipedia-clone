@@ -4,6 +4,7 @@ main {
   margin-top: -1px;
   border: 1px solid #a7d7f9;
   border-right-width: 0;
-  padding: 1.25em 1.5em 1.5em 1.5em;
+  padding: 1rem;
   font-size: 0.875em;
+  line-height: 1.6;
 }

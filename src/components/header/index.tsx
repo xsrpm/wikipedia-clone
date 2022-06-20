@@ -4,7 +4,7 @@ import tabNormalFade from "@/assets/images/tab-normal-fade.png";
 
 export function Header() {
   return (
-    <header>
+    <header className={classes.header}>
       <div className={classes.personal}>
         <div>
           <img src={userAvatar} width="15px" height="15px" />

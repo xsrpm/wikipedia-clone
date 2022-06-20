@@ -4,7 +4,7 @@ import poweredByMediaWiki from "@/assets/images/poweredby-mediawiki-88x31.png";
 
 export function Footer() {
   return (
-    <footer>
+    <footer className={classes.footer}>
       <div>
         <p>
           El texto está disponible bajo la{" "}
