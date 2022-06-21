@@ -1,0 +1,31 @@
+.table{
+    margin:1rem auto
+}
+
+.table td{
+    display: inline-flex;
+    flex-direction: row;
+    gap: 8px;
+    min-width: 200px;
+}
+.table picture{
+    display: inline-flex;
+    align-items: center;
+}
+
+.table p:nth-of-type(2){
+    font-size: 90%;
+}
+
+.table p{
+    margin: 0.15rem 0;
+}
+
+.table .colspan{
+    display: flex;
+    justify-content: center;
+}
+
+.table .colspan div{
+    display: flex;
+}

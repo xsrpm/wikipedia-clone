@@ -6,7 +6,6 @@ type props = {
 };
 
 export function LinkButton({ name, padding }: props) {
-  console.log(classes.linkButton);
   return (
     <a href="#" className={classes.linkButton}>
       <span style={{ padding }}>{name}</span>

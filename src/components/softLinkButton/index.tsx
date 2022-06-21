@@ -6,7 +6,6 @@ type props = {
 };
 
 export function SoftLinkButton({ name, padding }: props) {
-  console.log(classes.linkButton);
   return (
     <a href="#" className={classes.softLinkButton}>
       <span style={{ padding }}>{name}</span>
