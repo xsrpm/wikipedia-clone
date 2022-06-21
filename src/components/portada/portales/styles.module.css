@@ -1,0 +1,26 @@
+
+.ulPortales{
+    padding-left: 0;
+}
+
+.ulPortales li{
+    list-style: none;
+    font-size: 89%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ulPortales li:nth-of-type(n+2){
+    border-top: 1px dotted #c088fe;
+}
+
+.ulPortales li div{
+    margin: 0.5rem 0;
+}
+
+.ulPortales li img{
+    width:20px;
+    height:20px;
+}

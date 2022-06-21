@@ -3,6 +3,7 @@ import { Welcome } from "../../components/portada/welcome";
 import { FeaturedArticle } from "../../components/portada/featuredArticle";
 import { GoodArticle } from "../../components/portada/goodArticle";
 import { RecursoDelDia } from "../../components/portada/recursoDelDia";
+import { Portales } from "../../components/portada/portales";
 export function Portada() {
   return (
     <>
@@ -10,6 +11,7 @@ export function Portada() {
       <FeaturedArticle />
       <GoodArticle />
       <RecursoDelDia />
+      <Portales />
     </>
   );
 }
