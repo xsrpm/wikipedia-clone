@@ -1,5 +1,5 @@
-import { LinkButton } from "../linkButton";
-import { SoftLinkButton } from "../softLinkButton";
+import { LinkButton } from "../../linkButton";
+import { SoftLinkButton } from "../../softLinkButton";
 import classes from "@/layouts/sectionLayout/styles.module.css";
 import elipsis from "@/assets/images/30px-OOjs-UI-icon-ellipsis.svg.webp";
 import poznan from "@/assets/images/Poznan_1956.jpg.webp";

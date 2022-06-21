@@ -1,7 +1,7 @@
 import classes from "@/layouts/sectionLayout/styles.module.css";
 import classesRecurso from "./styles.module.css";
 import phobos from "@/assets/images/Phobos_colour_2008.jpg";
-import { SoftLinkButton } from "../softLinkButton";
+import { SoftLinkButton } from "../../softLinkButton";
 
 export function RecursoDelDia() {
   return (

@@ -1,8 +1,8 @@
 import './styles.css';
-import { Welcome } from "../../components/welcome";
-import { FeaturedArticle } from "../../components/featuredArticle";
-import { GoodArticle } from "../../components/goodArticle";
-import { RecursoDelDia } from "../../components/recursoDelDia";
+import { Welcome } from "../../components/portada/welcome";
+import { FeaturedArticle } from "../../components/portada/featuredArticle";
+import { GoodArticle } from "../../components/portada/goodArticle";
+import { RecursoDelDia } from "../../components/portada/recursoDelDia";
 export function Portada() {
   return (
     <>

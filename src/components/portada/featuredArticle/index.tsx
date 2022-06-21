@@ -1,5 +1,5 @@
-import { LinkButton } from "../linkButton";
-import { SoftLinkButton } from "../softLinkButton";
+import { LinkButton } from "../../linkButton";
+import { SoftLinkButton } from "../../softLinkButton";
 import classes from "@/layouts/sectionLayout/styles.module.css";
 import madona from "@/assets/images/Madonna-take-a-bow-album-version-1994-2.jpg.webp";
 import elipsis from "@/assets/images/30px-OOjs-UI-icon-ellipsis.svg.webp";

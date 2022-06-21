@@ -1,4 +1,4 @@
-import { SoftLinkButton } from "../softLinkButton";
+import { SoftLinkButton } from "../../softLinkButton";
 import classes from "./styles.module.css";
 
 export function Welcome() {
