@@ -50,7 +50,7 @@ export function FeaturedArticle() {
             <LinkButton name="Leer" />
           </li>
           <li>
-            <SoftLinkButton name="Todos los articulos destacados" />
+            <SoftLinkButton name="Todos los artículos destacados" />
           </li>
         </ul>
         <div>
