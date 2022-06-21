@@ -4,6 +4,7 @@ import { FeaturedArticle } from "../../components/portada/featuredArticle";
 import { GoodArticle } from "../../components/portada/goodArticle";
 import { RecursoDelDia } from "../../components/portada/recursoDelDia";
 import { Portales } from "../../components/portada/portales";
+import { Actualidad } from "../../components/portada/actualidad";
 export function Portada() {
   return (
     <>
@@ -12,6 +13,7 @@ export function Portada() {
       <GoodArticle />
       <RecursoDelDia />
       <Portales />
+      <Actualidad />
     </>
   );
 }
