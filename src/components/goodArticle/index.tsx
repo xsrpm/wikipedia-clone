@@ -29,7 +29,7 @@ export function GoodArticle() {
         <a href="#">represión</a> violenta.
       </p>
       <div className={classes.clear}></div>
-      <footer className={classes.footer}>
+      <footer>
         <ul>
           <li>
             <LinkButton name="Leer" />

@@ -1,0 +1,9 @@
+.figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.figure figcaption{
+    margin-top: 0.5rem;
+}

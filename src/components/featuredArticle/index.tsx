@@ -44,7 +44,7 @@ export function FeaturedArticle() {
         de su amante.
       </p>
       <div className={classes.clear}></div>
-      <footer className={classes.footer}>
+      <footer>
         <ul>
           <li>
             <LinkButton name="Leer" />
