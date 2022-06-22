@@ -27,7 +27,7 @@ export function RecursoDelDia() {
         tomada en 2008 por la <a href="#">Mars Reconnaissance Orbiter</a>.
       </p>
       <footer>
-        <SoftLinkButton name="Archivo" />
+        <SoftLinkButton name="Archivo" title="Wikipedia:Recurso del día" />
       </footer>
     </section>
   );

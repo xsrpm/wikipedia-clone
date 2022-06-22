@@ -35,7 +35,10 @@ export function GoodArticle() {
             <LinkButton name="Leer" />
           </li>
           <li>
-            <SoftLinkButton name="Todos los artículos buenos" />
+            <SoftLinkButton
+              name="Todos los artículos buenos"
+              title="Wikipedia:Artículos buenos/Índice"
+            />
           </li>
         </ul>
         <div>

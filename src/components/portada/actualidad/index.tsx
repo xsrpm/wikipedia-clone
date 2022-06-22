@@ -10,7 +10,9 @@ export function Actualidad() {
     <section className={classes.section}>
       <header>
         <h2 className={classes.title}>
-          <a href="#">Actualidad</a>
+          <a href="#" title="Actualidad">
+            Actualidad
+          </a>
         </h2>
       </header>
       <ul>
@@ -117,13 +119,22 @@ export function Actualidad() {
         </li>
       </ul>
       <p>
-        <strong>Véase también</strong>: <a href="#">Categoría:Actualidad</a> ,{" "}
-        <a href="#">2022</a>, <a href="#">Categoría:2022</a>
+        <strong>Véase también</strong>:{" "}
+        <a href="#" title="Categoría:Actualidad">
+          Categoría:Actualidad
+        </a>{" "}
+        , <a href="#">2022</a>,{" "}
+        <a href="#" title="Categoría:2022">
+          Categoría:2022
+        </a>
       </p>
       <footer>
         <ul>
           <li>
-            <LinkButton name="Otros eventos actuales" />
+            <LinkButton
+              name="Otros eventos actuales"
+              title="Portal:Actualidad"
+            />
           </li>
         </ul>
         <div>

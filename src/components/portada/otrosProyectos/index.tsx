@@ -17,8 +17,13 @@ export function OtrosProyectos() {
     <section className={classes.section}>
       <header>
         <h2 className={classes.title}>
-          <a href="#">Otros proyectos</a> de la{" "}
-          <a href="#">Fundación Wikimedia</a>
+          <a href="#" title="meta:Special:MyLanguage/Wikimedia projects">
+            Otros proyectos
+          </a>{" "}
+          de la{" "}
+          <a href="#" title="Fundación Wikimedia">
+            Fundación Wikimedia
+          </a>
         </h2>
       </header>
       <table className={classesOtros.table}>

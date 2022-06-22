@@ -10,7 +10,9 @@ export function FeaturedArticle() {
       <header>
         <p className={classes.cardType}>Artículo destacado</p>
         <h2 className={classes.title}>
-          <a href="#">Take a Bow</a>
+          <a href="#" title="Take a Bow">
+            Take a Bow
+          </a>
         </h2>
       </header>
       <picture className={classes.floatRight}>
@@ -50,7 +52,10 @@ export function FeaturedArticle() {
             <LinkButton name="Leer" />
           </li>
           <li>
-            <SoftLinkButton name="Todos los artículos destacados" />
+            <SoftLinkButton
+              name="Todos los artículos destacados"
+              title="Wikipedia:Artículos destacados/Índice"
+            />
           </li>
         </ul>
         <div>
