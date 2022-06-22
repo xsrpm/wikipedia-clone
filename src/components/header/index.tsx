@@ -87,6 +87,7 @@ export function Header() {
               type="search"
               placeholder="Buscar en Wikipedia"
               autoComplete="off"
+              accessKey="f"
               title="Buscar en este wiki [alt-shift-f]"
             />
             <input
