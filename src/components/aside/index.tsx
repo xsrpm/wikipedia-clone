@@ -6,15 +6,17 @@ export function Aside() {
   return (
     <aside>
       <section className={classes.logo}>
-        <a href="#">
+        <a href="#" title="Visitar la página principal">
           <img src={esWiki} alt="wikipedia logo" />
         </a>
       </section>
       <section>
         <ul>
-          {pages.map(({ title, url }) => (
-            <li key={title}>
-              <a href={url}>{title}</a>
+          {pages.map(({ title, url, name }) => (
+            <li key={name}>
+              <a href={url} title={title}>
+                {name}
+              </a>
             </li>
           ))}
         </ul>
@@ -25,9 +27,11 @@ export function Aside() {
           <span>Herramientas</span>
         </h2>
         <ul>
-          {tools.map(({ title, url }) => (
-            <li key={title}>
-              <a href={url}>{title}</a>
+          {tools.map(({ title, url, name }) => (
+            <li key={name}>
+              <a href={url} title={title}>
+                {name}
+              </a>
             </li>
           ))}
         </ul>
@@ -37,9 +41,9 @@ export function Aside() {
           <span>Imprimir/exportar</span>
         </h2>
         <ul>
-          {printExport.map(({ title, url }) => (
-            <li key={title}>
-              <a href={url}>{title}</a>
+          {printExport.map(({ name, url }) => (
+            <li key={name}>
+              <a href={url}>{name}</a>
             </li>
           ))}
         </ul>
@@ -49,9 +53,9 @@ export function Aside() {
           <span>En otros proyectos</span>
         </h2>
         <ul>
-          {projects.map(({ title, url }) => (
-            <li key={title}>
-              <a href={url}>{title}</a>
+          {projects.map(({ title, url, name }) => (
+            <li key={name}>
+              <a href={url}>{name}</a>
             </li>
           ))}
         </ul>
@@ -62,9 +66,11 @@ export function Aside() {
           <button title="Opciones de idioma">O</button>
         </h2>
         <ul>
-          {languages.map(({ title, url }) => (
-            <li key={title}>
-              <a href={url}>{title}</a>
+          {languages.map(({ title, url, name }) => (
+            <li key={name}>
+              <a href={url} title={title}>
+                {name}
+              </a>
             </li>
           ))}
           <li>

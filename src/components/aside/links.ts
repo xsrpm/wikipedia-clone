@@ -1,59 +1,66 @@
 type Page = {
   url : string,
-  title : string,
+  title? : string,
+  name: string,
 }
 
 export const pages: Page[] = [
     {
-      title: "Portada",
+      name: "Portada",
       url: "#",
+      title:"Visitar la página principal [alt-shift-z]"
     },
     {
-      title: "Portal de la comunidad",
+      name: "Portal de la comunidad",
       url: "#",
+      title:"Acerca del proyecto, lo que puedes hacer, dónde encontrar información"
     },
   ];
 
   export const tools: Page[] = [
     {
-      title: "Lo que enlaza aquí",
+      name: "Lo que enlaza aquí",
       url: "#",
+      title:"Lista de todas las páginas de la wiki que enlazan aquí [alt-shift-j]"
     },
     {
-      title: "Subir archivo",
+      name: "Subir archivo",
       url: "#",
+      title:"Subir archivos [alt-shift-u]"
     }
   ]
 
   export const printExport: Page[] = [
     {
-      title: "Crear un libro",
+      name: "Crear un libro",
       url: "#",
     },
     {
-      title: "Descargar como PDF",
+      name: "Descargar como PDF",
       url: "#",
     }
   ]
 
   export const projects : Page[] = [
     {
-      title: "Wikimedia Commons",
+      name: "Wikimedia Commons",
       url: "#",
     },
     {
-      title: "MediaWiki",
+      name: "MediaWiki",
       url: "#",
     }
   ]
 
   export const languages : Page[] = [
     {
-      title: "Español",
+      name: "Español",
       url: "#",
+      title:"Español"
     },
     {
-      title: "English",
+      name: "English",
       url: "#",
+      title:"English"
     }
   ]
