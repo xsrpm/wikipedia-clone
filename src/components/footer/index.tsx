@@ -23,13 +23,20 @@ export function Footer() {
       </div>
       <ul className={classes.links}>
         <li>
-          <a href="#"> Política de privacidad</a>
+          <a href="#" title="m:Privacy policy/es">
+            {" "}
+            Política de privacidad
+          </a>
         </li>
         <li>
-          <a href="#">Acerca de Wikipedia</a>
+          <a href="#" title="Acerca de Wikipedia">
+            Acerca de Wikipedia
+          </a>
         </li>
         <li>
-          <a href="#">Limitación de responsabilidad</a>
+          <a href="#" title="Limitación de responsabilidad">
+            Limitación de responsabilidad
+          </a>
         </li>
         <li>
           <a href="#">Versión para móviles</a>
